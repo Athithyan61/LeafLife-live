@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/Service.module.css'
+import styles from '../Styles/Service.module.css'
 import services from "../data/Service.json";
 import { useNavigate } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
