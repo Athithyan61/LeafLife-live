@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import services from "../data/Service.json";
-import styles from "../styles/ServiceDetails.module.css"
+import styles from "../Styles/ServiceDetails.module.css"
 import { Col, Row } from "react-bootstrap"
 // import { FiList } from "react-icons/fi";
 export default function ServiceDetails() {
@@ -32,9 +32,9 @@ export default function ServiceDetails() {
                     <div className="pe-4">
 
                         <div className={styles.breadcrumb}>
-                            <a href=""> Home |</a>
+                            <a href="">Home |</a>
                             <a href="">Services |</a>
-                            <a href="">  Details</a>
+                            <a href="">Details</a>
                             <h1 className={styles.title}>{service.title}</h1>
                         </div>
                         <div className={styles.main}>

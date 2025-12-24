@@ -1,0 +1,104 @@
+.hero {
+  position: relative;
+  height: 70vh; 
+  overflow: hidden;
+  color: white;
+}
+
+/* Background image */
+.bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 3;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navLinks {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  border: none;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.search {
+  font-size: 18px;
+}
+
+.heroContent {
+  position: absolute;
+  left: 64px;
+  bottom: 80px; /* earlier 120px */
+  z-index: 2;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.breadcrumb span {
+  margin: 0 6px;
+}
+
+.title {
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 1;
+}
+/* ACTIVE NAV LINK */
+.activeLink {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+/* BREADCRUMB LINKS */
+.breadLink {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.breadLink:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+

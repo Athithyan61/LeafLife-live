@@ -1,7 +1,6 @@
 .hero {
   position: relative;
-  height: 70vh; /* ❌ 100vh illa */
-  min-height: 520px;
+  height: 70vh; 
   overflow: hidden;
   color: white;
 }
@@ -84,6 +83,25 @@
   font-weight: 500;
   line-height: 1;
 }
+
+/* ACTIVE NAV LINK */
+.activeLink {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+/* BREADCRUMB LINKS */
+.breadLink {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.breadLink:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .wrapper {
   background: #fbfbf2;
   padding: 50px 80px;
@@ -91,7 +109,6 @@
   flex-direction: column;
   gap: 40px;
 }
-
 
 .project {
   display: flex;
@@ -265,8 +282,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   margin-bottom: 18px;
-    color: white;
-
+  color: white;
 }
 
 .column6 li {
@@ -346,24 +362,3 @@
   height: 1px;
   background: #ddd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
