@@ -1,0 +1,90 @@
+[
+    {
+        "id": "garden-design",
+        "title": "GARDEN DESIGN",
+        "subtitle": "Crafting the perfect garden space",
+        "image": "/images/a-card1",
+        "main": "/images/a-main1.avif",
+        "side": "/images/a-side1.avif",
+        "description": "Crafting the perfect garden space. We will design a garden that suits your lifestyle.",
+        "details": "Through Garden Design service, we bring your outdoor vision to life, blending creativity with functionality. We meticulously plan every detail, from layout to plant selection, to create a harmonious and captivating garden space tailored to your preferences and lifestyle. The service goes beyond aesthetics; it's about creating a living masterpiece tailored to your lifestyle. We believe that a well-designed garden should not only delight the senses but also enrich your daily life, providing a space for relaxation, inspiration, and connection with nature.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "plant-selection",
+        "title": "PLANT SELECTION",
+        "main": "/images/a-main2.avif",
+        "side": "/images/a-side1.avif",
+        "subtitle": "Hand-picked greenery",
+        "image": "/images/a-card2.avif",
+        "description": "Crafting the perfect garden space. We will design a garden that suits your lifestyle.",
+        "details": "This service ensures the perfect combination of greenery for your garden. We carefully curate plant varieties based on your garden's conditions, preferences, and design aesthetics, ensuring a vibrant and thriving landscape. We curate a botanical palette that reflects your personality and preferences. We understand that plants are the soul of any garden, and our goal is to create a diverse and resilient landscape that thrives throughout the seasons, bringing beauty and vitality to your outdoor space.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "hards-caping",
+        "title": "HARDSCAPING",
+        "main": "/images/a-main3.avif",
+        "side": "/images/a-side3.avif",
+        "subtitle": "Crafting the perfect garden space",
+        "image": "/images/a-card3.avif",
+        "description": "Adding structure to your landscape. We create functional and aesthetic hardscape features.",
+        "details": "Our Hardscaping service focuses on creating functional and aesthetically pleasing features in your outdoor space. From patios and pathways to retaining walls and fire pits, we blend design and durability to enhance your garden's appeal. We marry form and function to create outdoor spaces that stand the test of time. From elegant patios to functional retaining walls, each hardscape element is designed with precision and craftsmanship, enhancing both the beauty and usability of your garden.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "Garden-Irrigation",
+        "title": "GARDEN IRRIGATION",
+        "subtitle": "Hand-picked greenery",
+        "main": "/images/a-main4.avif",
+        "side": "/images/a-side4.avif",
+        "image": "/images/a-card4.avif",
+        "description": "Keeping your garden vibrant all year long. Our irrigation systems guarantee your garden receives.",
+        "details": "The Irrigation service ensures your garden receives the right amount of water at the right time, promoting healthy growth and sustainability. We design and install efficient irrigation systems tailored to your garden's needs, conserving water and minimizing maintenance. It is the backbone of a healthy and sustainable garden. By delivering water efficiently and precisely, we ensure that your plants receive the nourishment they need to flourish, while conserving water resources and minimizing the environmental impact of irrigation.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "garden-maintenance",
+        "title": "GARDEN MAINTENANCE",
+        "main": "/images/a-main5.avif",
+        "side": "/images/a-side5.avif",
+        "subtitle": "Crafting the perfect garden space",
+        "image": "/images/a-card5.avif",
+        "description": "Preserving your garden's allure. We offer ongoing maintenance services.",
+        "details": "Our Maintenance service ensures your garden remains healthy and beautiful year-round. From pruning to pest management, we provide comprehensive care tailored to your garden's specific needs, allowing you to relax and enjoy your outdoor oasis. We provide ongoing care to keep your garden looking its best year-round. Our team of skilled professionals handles everything from pruning and fertilizing to pest management, allowing you to enjoy a vibrant and thriving garden with minimal effort. It is more than just a meeting; it's the beginning of a collaborative journey towards creating your ideal garden. We strive to understand your unique vision and aspirations, guiding you through every step of the design process with expertise and personalized attention.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "Garden-Consultaion",
+        "title": "GARDEN CONSULTATION",
+        "subtitle": "Hand-picked greenery",
+        "main": "/images/a-main6.avif",
+        "side": "/images/a-side6.webp",
+        "image": "/images/a-card6.webp",
+         "description": "Crafting the perfect garden space. We will design a garden that suits your lifestyle.",
+        "details": "Consultation service is the first step towards creating your dream garden. From understanding your vision to assessing garden conditions, we provide personalized guidance and expert analysis to bring your ideas to life. We provide ongoing care to keep your garden looking its best year-round. Our team of skilled professionals handles everything from pruning and fertilizing to pest management, allowing you to enjoy a vibrant and thriving garden with minimal effort.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    },
+    {
+        "id": "Oudoor-lighting-design",
+        "title": "OUDOOR LIGHTING DESIGN",
+        "subtitle": "Crafting the perfect garden space",
+        "image": "/images/a-card7.avif",
+        "main": "/images/a-main7.avif",
+        "side": "/images/a-side7.avif",
+        "description": "Illuminate your garden's beauty with expertly designed lighting solutions. ",
+        "details": "Enhance your garden's allure with our Garden Lighting Design service. We meticulously plan and install lighting solutions that create a captivating ambiance, transforming your outdoor space into a magical haven of beauty and serenity. Whether you desire a tranquil retreat, a vibrant entertainment space, or heightened security, our lighting designs cater to your specific needs. We ensure your garden comes alive with an enchanting glow, enhancing its aesthetics and functionality.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently.    "
+    },
+    {
+        "id": "aquascape-installation",
+        "title": "AQUASCAPE INSTALLATION",
+        "subtitle": "Hand-picked greenery",
+        "image": "/images/a-card8.avif",
+        "main": "/images/a-main8.webp",
+        "side": "/images/a-side8.webp",
+         "description": "Crafting the perfect garden space. We will design a garden that suits your lifestyle.",
+        "details": "Our Water Feature Installation service adds tranquility and elegance to your outdoor space. From cascading waterfalls to serene ponds, each feature is expertly designed and installed to create a peaceful retreat in your garden. With this service, we aim to create captivating focal points that evoke tranquility and beauty in your outdoor space. From the soothing sounds of flowing water to the mesmerizing sight of aquatic life, each feature is meticulously designed to enhance your garden's ambiance and allure.",
+        "detailtwo": "With a team of dedicated landscape architects and horticultural experts, we blend art and science to transform your outdoor space into a living masterpiece. We go beyond aesthetics, integrating sustainable practices, water-saving solutions, and eco-friendly choices to ensure your garden is as environmentally responsible as it is stunning. From the initial consultation to the final blossom, we are with you every step of the way, bringing your vision of dream garden to life expertly and efficiently."
+    }
+]
