@@ -33,9 +33,9 @@ export default function ServiceDetails() {
                     <div className="pe-4">
 
                         <div className={styles.breadcrumb}>
-                            <a href=""> Home |</a>
+                            <a href="">Home |</a>
                             <a href="">Services |</a>
-                            <a href="">  Details</a>
+                            <a href="">Details</a>
                             <h1 className={styles.title}>{service.title}</h1>
                         </div>
                         <div className={styles.main}>

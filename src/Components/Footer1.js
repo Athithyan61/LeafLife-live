@@ -1,59 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styles from "../Styles/Project.module.css";
-import Faq from "./Faq";
-import bgImage from "../Images/i-project.png";
-export default function Projects() {
+import { useEffect, useState } from "react";
+import styles from "../Styles/Footer.module.css";
+
+const Footer = () => {
+  
   return (
     <>
-      <section className={styles.hero}>
-        {/* Background Image */}
-        <div
-          className={styles.bg}
-          style={{ backgroundImage: `url(${bgImage})` }}
-        />
-
-        {/* Dark Overlay */}
-        <div className={styles.overlay} />
-
-        {/* NAVBAR */}
-        <nav className={styles.navbar}>
-          <div className={styles.logo}>🌿 leaflife</div>
-
-          <ul className={styles.navLinks}>
-            <li>
-              <Link to="/about">ABOUT</Link>
-            </li>
-            <li>
-              <Link to="/services">SERVICES</Link>
-            </li>
-            <li>
-              <Link to="/projects">PROJECTS</Link>
-            </li>
-            <li>
-              <Link to="/contactus">CONTACT</Link>
-            </li>
-          </ul>
-
-          <div className={styles.search}>🔍</div>
-        </nav>
-
-        {/* HERO CONTENT (Framer style) */}
-        <div className={styles.heroContent}>
-          <p className={styles.breadcrumb}>
-            <Link to="/" className={styles.breadLink}>
-              Home
-            </Link>
-            <span>|</span>
-            <Link to="/projects" className={styles.breadLink}>
-              Projects
-            </Link>
-          </p>
-
-          <h1 className={styles.title}>OUR PROJECTS</h1>
-        </div>
-      </section>
-      <Faq />
       <footer className={styles.footer6}>
         <div className={styles.container6}>
           {/* LEFT SIDE */}
@@ -113,4 +64,6 @@ export default function Projects() {
       </footer>
     </>
   );
-}
+};
+
+export default Footer;
