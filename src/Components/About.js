@@ -10,6 +10,7 @@ import im5 from "../Images/d-ngirl.png";
 import style from "../Styles/About.module.css";
 import { Link } from "react-router-dom";
 import sectionImg from "../Images/i-img4.png";
+import Footer from "./Footer1";
 
 function About() {
   return (
@@ -192,7 +193,7 @@ function About() {
           </div>
         </div>
       </div>
-    
+    <Footer/>
     </>
   );
 }
