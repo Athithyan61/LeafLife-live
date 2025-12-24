@@ -38,7 +38,7 @@
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -52,7 +52,8 @@
 .navLinks a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   letter-spacing: 1px;
   border: none;
 }
