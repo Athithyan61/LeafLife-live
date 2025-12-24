@@ -1,4 +1,3 @@
-
 /* ================= NAVBAR ================= */
 .navbar {
   position: relative;
@@ -6,11 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 60px;
+  padding: 50px 100px !important;
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -23,7 +22,8 @@
 .navLinks li a {
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 
@@ -201,8 +201,8 @@
   padding: 20px;
 
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(5px);
+  background: linear-gradient(258.0463005961557deg, rgba(255, 255, 255, .5) 2.771279514165164%, rgba(255, 255, 255, .10000000149011612) 100%);
 
   display: flex;
   justify-content: space-between;
@@ -225,6 +225,7 @@
 .pin {
   font-size: 18px;
 }
+
 .arrow {
   font-size: 15px;
 }
@@ -444,12 +445,10 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.65),
-    rgba(0, 0, 0, 0.15),
-    transparent
-  );
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.15),
+      transparent);
   z-index: 1;
 }
 
@@ -458,9 +457,11 @@
   top: 20px;
   left: 20px;
   display: flex;
-  flex-wrap: wrap;   /* 🔑 IMPORTANT */
+  flex-wrap: wrap;
+  /* 🔑 IMPORTANT */
   gap: 10px;
-  max-width: 260px;  /* controls wrap width */
+  max-width: 260px;
+  /* controls wrap width */
   z-index: 2;
 }
 
@@ -697,7 +698,7 @@
 .brandDesc6 {
   font-size: 15px;
   color: #7a847a;
-  max-width: 260px;
+  /* max-width: 260px; */
   line-height: 1.6;
 }
 
@@ -762,4 +763,62 @@
   text-align: center;
   font-size: 13px;
   color: #7a847a;
+}
+
+/* Responsive */
+@media (min-width:1440px) and (max-width:1921px) {
+  .hero {
+    height: 80vh;
+    padding: 40px 80px 64px !important;
+  }
+
+  .content h1 {
+    font-size: 90px;
+  }
+
+  .primary {
+    padding: 10px 40px;
+  }
+
+  .secondary {
+    border: none;
+  }
+
+  .topRow1 h2,
+  .header2 h2,
+  .title4,
+  .title5 {
+    font-size: 80px;
+  }
+
+  .cta1 {
+    padding: 10px 40px;
+  }
+
+  .feature1 h4,
+  .step2 h4 {
+    font-size: 24px;
+  }
+
+  .feature1 p {
+    font-size: 20px;
+  }
+
+  .icon1 {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .timeline2 {
+    padding-top: 5rem;
+  }
+
+  .card {
+    height: 540px;
+  }
+
+  .content5 {
+    max-width: inherit;
+  }
 }

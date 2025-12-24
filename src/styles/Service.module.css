@@ -28,17 +28,16 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 28px 64px;
+  padding: 50px 100px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   z-index: 3;
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -52,7 +51,8 @@
 .navLinks a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: 1px;
   border: none;
 }
@@ -64,7 +64,8 @@
 .heroContent {
   position: absolute;
   left: 64px;
-  bottom: 80px; /* earlier 120px */
+  bottom: 80px;
+  /* earlier 120px */
   z-index: 2;
 }
 
@@ -83,6 +84,7 @@
   font-weight: 500;
   line-height: 1;
 }
+
 /* ACTIVE NAV LINK */
 .activeLink {
   border-bottom: 2px solid white;
@@ -102,15 +104,18 @@
 }
 
 
-.service{
-    padding: 0 80px;
-    margin-top: 5rem;
+.service {
+  padding: 0 80px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+
 .Scard {
   position: relative;
   border-radius: 20px;
@@ -139,9 +144,8 @@
 /* Text overlay */
 .overlay {
   position: absolute;
-  bottom: 24px;
-  left: 24px;
   color: white;
+  padding: 40% 0 20px 20px;
   z-index: 2;
   transition: transform 0.4s ease;
 }
@@ -166,9 +170,15 @@
   transition: all 0.3s ease;
 }
 
-/* 🔥 HOVER EFFECTS */
-
 .Scard:hover::after {
   opacity: 1;
 }
 
+@media (max-width:1439px){
+ .Scard{
+  height: 320px;
+ }
+ .overlay{
+  padding: 50% 0 0  20px;
+ }
+}

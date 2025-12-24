@@ -61,7 +61,7 @@ function About() {
           <h1 className={style.title}>ABOUTUS</h1>
         </div>
       </section>
-      <div className="col-md-12 d-flex container-fluid" id={style.main2}>
+      <div className="col-md-12 d-flex container-fluid" id={style.main2}  style={{padding:"40px 80px"}}>
         <div className="col-md-4">
           <h3 className={style.cr1}>
             CRAFTING <br></br>
@@ -85,7 +85,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="row container my-5 mx-auto">
+      <div className="row container-fluid  mx-auto" style={{padding:"40px 80px"}}>
         <div className="col-md-4">
           <div className={style.videoWrapper}>
             <video

@@ -25,45 +25,45 @@ export default function ServiceDetails() {
         { icons: "/images/a-icon6.svg", },
     ]
     return (
-            <div className={styles.SDetails}>
-           
-        <div className={styles.parent}>
-            <Row>
-                <Col md={8} sm={12} lg={8} xl={8} xxl={8}>
-                    <div className="pe-4">
+        <div className={styles.SDetails}>
 
-                        <div className={styles.breadcrumb}>
-                            <a href="">Home |</a>
-                            <a href="">Services |</a>
-                            <a href="">Details</a>
-                            <h1 className={styles.title}>{service.title}</h1>
-                        </div>
-                        <div className={styles.main}>
-                            <img src={service.main} alt="" />
-                        </div>
-                        <div className={styles.paras}>
-                            <p>{service.details}</p>
-                            <p>{service.detailtwo}</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={4} sm={12} lg={4} xl={4} xxl={4}>
-                    <div className={styles.side}>
-                        <img src={service.side} alt="" />
-                    </div>
-                    <div className={styles.features}>
-                        {features.map((item, index) => (
-                            <div key={index} className={styles.Iconcard}>
-                                <img  src={Detailsicons[index].icons}    alt=""  width="20px" />
-                                <p>{item}</p>
+            <div className={styles.parent}>
+                <Row>
+                    <Col md={8} sm={12} lg={8} xl={8} xxl={8}>
+                        <div className="pe-4">
+
+                            <div className={styles.breadcrumb}>
+                                <a href="">Home |</a>
+                                <a href="">Services |</a>
+                                <a href="">Details</a>
+                                <h1 className={styles.title}>{service.title}</h1>
                             </div>
-                        ))}
-                    </div>
-                </Col>
-            </Row>
-        </div>    
-
-        <FooterTwo/> 
+                            <div className={styles.main}>
+                                <img src={service.main} alt="" />
+                            </div>
+                            <div className={styles.paras}>
+                                <p>{service.details}</p>
+                                <p>{service.detailtwo}</p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={4} sm={12} lg={4} xl={4} xxl={4}>
+                        <div className={styles.side}>
+                            <img src={service.side} alt="" />
+                        </div>
+                        <div className={styles.features}>
+                            {features.map((item, index) => (
+                                <div key={index} className={styles.Iconcard}>
+                                    <img src={Detailsicons[index].icons} alt="" width="20px" />
+                                    <p>{item}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </Col>
+                </Row>
             </div>
+
+            <FooterTwo />
+        </div>
     );
 }

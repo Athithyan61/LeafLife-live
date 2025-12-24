@@ -29,8 +29,7 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 28px 64px;
-
+  padding: 50px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +38,7 @@
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -53,7 +52,8 @@
 .navLinks a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: 1px;
   border: none;
 }
