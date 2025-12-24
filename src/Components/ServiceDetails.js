@@ -2,7 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import services from "../data/Service.json";
 import styles from "../Styles/ServiceDetails.module.css";
 import { Col, Row } from "react-bootstrap";
-import FooterTwo from "./FooterTwo";
+import Footer from "../Components/Footer1.js";
+
 // import { FiList } from "react-icons/fi";
 export default function ServiceDetails() {
   const { id } = useParams();
@@ -87,7 +88,7 @@ export default function ServiceDetails() {
           </Row>
         </div>
 
-        <FooterTwo />
+        <Footer/>
       </div>
     </>
   );
