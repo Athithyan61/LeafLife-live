@@ -1,3 +1,10 @@
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .hero {
   position: relative;
   height: 70vh; 
@@ -37,7 +44,7 @@
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 

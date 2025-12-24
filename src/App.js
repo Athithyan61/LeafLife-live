@@ -1,16 +1,18 @@
-import './App.css';
-import Service from './Components/Service';
-import ServiceDetails from './Components/ServiceDetails';
+import "./App.css";
+import Service from "./Components/Service";
+import ServiceDetails from "./Components/ServiceDetails";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Components/About";
 // import Services from "./Components/Services";
 import Projects from "./Components/Projects";
 import ContactUs from "./Components/ContactUs";
 import Hero from "./Components/Hero";
+import ScrollToTop from "./Components/ScrollToTop";
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />

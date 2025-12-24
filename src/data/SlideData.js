@@ -1,54 +1,52 @@
 import img1 from "../Images/i-img1.png";
+import img2 from "../Images/i-img1.png";
+import img3 from "../Images/i-img1.png";
+import img4 from "../Images/i-img1.png";
 
-const slidesData = [
+export const slidesData = [
   {
     id: 1,
-    image: img1,
-    title: "EVENING\nGARDEN",
+    title: "EVENING GARDEN",
     year: "2023",
     location: "SUNNYVALE, CA",
     service: "GARDEN LANDSCAPING",
     description:
-      "Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.",
+      "Creating a serene and enchanting outdoor space for evening enjoyment.",
     outcomes: [
       "Increased property value",
       "Relaxing outdoor space",
       "Enhanced biodiversity",
     ],
+    image: img1,
   },
   {
     id: 2,
-    image: img1,
-    title: "MORNING\nGARDEN",
-    year: "2024",
-    location: "SAN JOSE, CA",
-    service: "LAWN DESIGN",
-    description:
-      "Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.",
-    outcomes: ["Fresh ambiance", "Better drainage", "Green coverage"],
+    title: "SECRET GARDEN",
+    year: "2022",
+    location: "NEW YORK",
+    service: "URBAN DESIGN",
+    description: "Modern green spaces designed for city living.",
+    outcomes: ["Eco friendly", "Better air quality", "Modern look"],
+    image: img2,
   },
   {
     id: 3,
-    image: img1,
-    title: "URBAN\nPARK",
-    year: "2022",
-    location: "PALO ALTO, CA",
-    service: "URBAN LANDSCAPING",
-    description:
-      "Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.",
-    outcomes: ["Space optimization", "Eco-friendly design"],
+    title: "MINIMALIST GARDEN",
+    year: "2024",
+    location: "TEXAS",
+    service: "BACKYARD MAKEOVER",
+    description: "Transforming backyard into a blooming paradise.",
+    outcomes: ["Family space", "Natural vibe", "Low maintenance"],
+    image: img3,
   },
   {
     id: 4,
-    image: img1,
-    title: "BACKYARD\nRETREAT",
+    title: "GREEN DISPLAY GARDEN",
     year: "2023",
-    location: "MOUNTAIN VIEW, CA",
-    service: "BACKYARD DESIGN",
-    description:
-      "Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.Creating a serene and enchanting outdoor space that is especially enjoyable during the evening hours.",
-    outcomes: ["Personal relaxation", "Natural feel"],
+    location: "JAPAN",
+    service: "ZEN LANDSCAPING",
+    description: "Minimal and peaceful zen-inspired courtyard.",
+    outcomes: ["Calm atmosphere", "Spiritual feel", "Aesthetic beauty"],
+    image: img4,
   },
 ];
-
-export default slidesData;

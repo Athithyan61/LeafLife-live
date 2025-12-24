@@ -1,7 +1,6 @@
 import React from "react";
 import bgImage from "../Images/d-bg.png";
 import tree from "../Images/d-tree.png";
-import bg1 from "../Images/d-tree1.png";
 import im1 from "../Images/d-girl1.png";
 import im2 from "../Images/d-green.png";
 import im4 from "../Images/d-home.png";
@@ -27,8 +26,9 @@ function About() {
 
         {/* NAVBAR */}
         <nav className={style.navbar}>
-          <div className={style.logo}>🌿 leaflife</div>
-
+          <Link to="/" className={style.logo}>
+            🌿 Sky Eagle
+          </Link>
           <ul className={style.navLinks}>
             <li>
               <Link to="/about">ABOUT</Link>
@@ -62,7 +62,11 @@ function About() {
           <h1 className={style.title}>ABOUTUS</h1>
         </div>
       </section>
-      <div className="col-md-12 d-flex container-fluid" id={style.main2}  style={{padding:"40px 80px"}}>
+      <div
+        className="col-md-12 d-flex container-fluid"
+        id={style.main2}
+        style={{ padding: "40px 80px" }}
+      >
         <div className="col-md-4">
           <h3 className={style.cr1}>
             CRAFTING <br></br>
@@ -86,7 +90,10 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="row container-fluid  mx-auto" style={{padding:"40px 80px"}}>
+      <div
+        className="row container-fluid  mx-auto"
+        style={{ padding: "40px 80px" }}
+      >
         <div className="col-md-4">
           <div className={style.videoWrapper}>
             <video
@@ -193,7 +200,7 @@ function About() {
           </div>
         </div>
       </div>
-    <Footer/>
+      <Footer />
     </>
   );
 }

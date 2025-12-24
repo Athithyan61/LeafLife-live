@@ -1,13 +1,16 @@
 import React from "react";
 import Slide from "../Components/ProjectsInside.js";
-import slidesData from "../data/SlideData.js";
+import { slidesData } from "../data/SlideData";
+import styles from "../Styles/ProjectInside.module.css";
 
-export default function SlideContainer() {
+export default function SlidesSection() {
   return (
     <>
-      {slidesData.map((item) => (
-        <Slide key={item.id} data={item} />
-      ))}
+      <div className={styles.slidesWrapper}>
+        {slidesData.map((slide) => (
+          <Slide key={slide.id} data={slide} />
+        ))}
+      </div>
     </>
   );
 }

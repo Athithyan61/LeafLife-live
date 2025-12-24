@@ -4,23 +4,30 @@ import styles from "../Styles/ProjectInside.module.css";
 export default function Slide({ data }) {
   const [open, setOpen] = useState(false);
 
-  if (!data) return null; // ✅ IMPORTANT
-
   return (
     <div
       className={`${styles.slide} ${open ? styles.open : ""}`}
+      style={
+        open
+          ? { backgroundImage: `url(${data.image})` }
+          : {}
+      }
       onClick={() => setOpen(!open)}
     >
-      <img src={data.image} alt="img" className={styles.bgImage} />
+      {/* 🔹 Preview image (only before click) */}
+      {!open && (
+        <img
+          src={data.image}
+          alt={data.title}
+          className={styles.previewImg}
+        />
+      )}
 
+      {/* LEFT TEXT */}
       <div className={styles.textBlock}>
         <h1>
-          {data.title.split("\n").map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
+          {data.title.split(" ")[0]} <br />
+          {data.title.split(" ")[1]}
         </h1>
 
         <div className={styles.info}>
@@ -39,16 +46,16 @@ export default function Slide({ data }) {
         </div>
       </div>
 
+      {/* RIGHT CONTENT */}
       <div className={styles.rightContent}>
         <h5>DESCRIPTION</h5>
         <p>{data.description}</p>
 
         <h5>OUTCOMES</h5>
-        {data.outcomes?.map((item, index) => (
-          <p key={index}>{item}</p>
+        {data.outcomes.map((item, i) => (
+          <p key={i}>{item}</p>
         ))}
       </div>
-      <hr/>
     </div>
   );
 }

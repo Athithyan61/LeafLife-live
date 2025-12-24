@@ -23,8 +23,9 @@ export default function Service() {
 
         {/* NAVBAR */}
         <nav className={styles.navbar}>
-          <div className={styles.logo}>🌿 leaflife</div>
-
+          <Link to="/" className={styles.logo}>
+            🌿 Sky Eagle
+          </Link>
           <ul className={styles.navLinks}>
             <li>
               <Link to="/about">ABOUT</Link>
@@ -85,7 +86,7 @@ export default function Service() {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

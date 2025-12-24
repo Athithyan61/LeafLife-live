@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styles from "../Styles/Project.module.css";
 import Faq from "./Faq";
 import bgImage from "../Images/i-project.png";
-import Slide from "./ProjectsInside";
 import SlideContainer from "./SlideContainer";
 export default function Projects() {
   return (
@@ -20,8 +19,9 @@ export default function Projects() {
 
         {/* NAVBAR */}
         <nav className={styles.navbar}>
-          <div className={styles.logo}>🌿 leaflife</div>
-
+          <Link to="/" className={styles.logo}>
+            🌿 Sky Eagle
+          </Link>
           <ul className={styles.navLinks}>
             <li>
               <Link to="/about">ABOUT</Link>
@@ -55,7 +55,7 @@ export default function Projects() {
           <h1 className={styles.title}>OUR PROJECTS</h1>
         </div>
       </section>
-      <SlideContainer/>
+      <SlideContainer />
       <Faq />
       <footer className={styles.footer6}>
         <div className={styles.container6}>

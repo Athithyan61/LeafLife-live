@@ -20,8 +20,9 @@ export default function ContactUs() {
 
         {/* NAVBAR */}
         <nav className={styles.navbar}>
-          <div className={styles.logo}>🌿 leaflife</div>
-
+          <Link to="/" className={styles.logo}>
+            🌿 Sky Eagle
+          </Link>
           <ul className={styles.navLinks}>
             <li>
               <Link to="/about">ABOUT</Link>
@@ -54,8 +55,8 @@ export default function ContactUs() {
           <h1 className={styles.title}>CONTACT US</h1>
         </div>
       </section>
-      <ContactSection/>
-      <Footer/>
+      <ContactSection />
+      <Footer />
     </>
   );
 }

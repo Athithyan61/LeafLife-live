@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
 import styles from "../Styles/Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  
   return (
     <>
       <footer className={styles.footer6}>
@@ -12,10 +11,9 @@ const Footer = () => {
             <div className={styles.brandRow6}>
               <div className={styles.logoWrap6}>
                 <span className={styles.logoIcon6}>🌿</span>
-                <span className={styles.logoText6}>leaflife</span>
+                <span className={styles.logoText6}>Sky Eagle</span>
               </div>
 
-              {/* vertical line */}
               <span className={styles.line6}></span>
 
               <p className={styles.brandDesc6}>
@@ -38,20 +36,36 @@ const Footer = () => {
             <div className={styles.column6}>
               <h4 className={styles.heading6}>LINKS</h4>
               <ul>
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>PROJECTS</li>
+                <li>
+                  <Link to="/">HOME</Link>
+                </li>
+                <li>
+                  <Link to="/about">ABOUT US</Link>
+                </li>
+                <li>
+                  <Link to="/services">SERVICES</Link>
+                </li>
+                <li>
+                  <Link to="/projects">PROJECTS</Link>
+                </li>
               </ul>
             </div>
 
             <div className={styles.column6}>
               <h4 className={styles.heading6}>SERVICES</h4>
               <ul>
-                <li>HARDSCAPING</li>
-                <li>PLANT SELECTION</li>
-                <li>GARDEN DESIGN</li>
-                <li>GARDEN CONSULTANT</li>
+                <li>
+                  <Link to="/services">HARDSCAPING</Link>
+                </li>
+                <li>
+                  <Link to="/services">PLANT SELECTION</Link>
+                </li>
+                <li>
+                  <Link to="/services">GARDEN DESIGN</Link>
+                </li>
+                <li>
+                  <Link to="/services">GARDEN CONSULTANT</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -59,7 +73,7 @@ const Footer = () => {
 
         {/* BOTTOM */}
         <div className={styles.bottom6}>
-          COURTESY © 2023. ALL RIGHTS RESERVED.
+          SoftNova Tech. ALL RIGHTS RESERVED.
         </div>
       </footer>
     </>
